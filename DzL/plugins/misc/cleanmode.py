@@ -30,11 +30,11 @@ from config import adminlist, chatstats, clean, userstats
 
 from strings import get_command
 
-from YukkiMusic import app, userbot
+from DzL import app, userbot
 
-from YukkiMusic.misc import SUDOERS
+from DzL.misc import SUDOERS
 
-from YukkiMusic.utils.database import (get_active_chats,
+from DzL.utils.database import (get_active_chats,
 
                                        get_authuser_names, get_client,
 
@@ -50,9 +50,9 @@ from YukkiMusic.utils.database import (get_active_chats,
 
                                        update_user_top)
 
-from YukkiMusic.utils.decorators.language import language
+from DzL.utils.decorators.language import language
 
-from YukkiMusic.utils.formatters import alpha_to_int
+from DzL.utils.formatters import alpha_to_int
 
 BROADCAST_COMMAND = get_command("BROADCAST_COMMAND")
 
